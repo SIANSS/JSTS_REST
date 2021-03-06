@@ -18,5 +18,8 @@ jobs:
           name: Install typescript
           command : sudo npm install typescript -g
       - run:
+          name: Install typescript
+          command : sudo npm install nodemon -g
+      - run:
           name : Run In DevMode
           command : npm run dev
