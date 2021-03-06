@@ -1,0 +1,2 @@
+simple File added to make sure Circle CI updates default branch changes.
+https://support.circleci.com/hc/en-us/articles/360040969693-VCS-Default-Branch-Isn-t-Reflected-on-CircleCI
