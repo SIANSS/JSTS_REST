@@ -1,0 +1,14 @@
+{
+  "api": {
+    "payment": {
+      "endpoint": "https://api.testdollar.app/"
+    },
+    "agent": {
+      "endpoint": "https://onboard-api.testdollar.app/"
+    },
+    "securityExpiry": 30
+  },
+  "env": {
+    "test": "test"
+  }
+}

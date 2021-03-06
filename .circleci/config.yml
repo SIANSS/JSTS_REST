@@ -11,4 +11,9 @@ jobs:
       - image: cimg/node:15.11.0
     steps:
       - checkout
-      - run: node --version
+      - run:
+          name : Install Dependencies
+          command : npm Install
+      - run:
+          name : Run In DevMode
+          command : npm run dev
