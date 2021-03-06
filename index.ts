@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
-import chp from 'child_process';
-import config from 'config';
+// import chp from 'child_process';
+// import config from 'config';
 import * as readline from 'readline';
 
 let getDate = Math.floor(Date.now() / 1000);

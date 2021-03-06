@@ -23,6 +23,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
+// import chp from 'child_process';
+// import config from 'config';
 var readline = __importStar(require("readline"));
 var getDate = Math.floor(Date.now() / 1000);
 var rl = readline.createInterface({
