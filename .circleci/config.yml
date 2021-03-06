@@ -13,7 +13,10 @@ jobs:
       - checkout
       - run:
           name : Install Dependencies
-          command : npm Install
+          command : npm install
+      - run:
+          name: Install typescript
+          command : npm install typescript -g
       - run:
           name : Run In DevMode
-          command : npm run dev
+          command : npm run prod
