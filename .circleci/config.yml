@@ -19,4 +19,4 @@ jobs:
           command : sudo npm install typescript -g
       - run:
           name : Run In DevMode
-          command : npm run prod
+          command : npm run dev
