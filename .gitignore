@@ -103,3 +103,7 @@ typings/
 .tern-port
 
 dist/
+
+*.tfstate
+.terraform.lock.hcl
+.terraform/
