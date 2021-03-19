@@ -1,3 +1,5 @@
+version: 2
+
 jobs:
   build:
     machine:
@@ -21,7 +23,6 @@ jobs:
 
 
 workflows:
-  version: 2
   test-build:
     jobs:
       - build
