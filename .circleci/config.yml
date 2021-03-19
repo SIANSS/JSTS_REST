@@ -1,5 +1,10 @@
 version: 2
 
+workflows:
+  test-build:
+    jobs:
+      - build
+
 jobs:
   build:
     machine:
@@ -20,9 +25,3 @@ jobs:
             docker push dimosian8docker1/5and_dollar:latest
             # Update Container
             ssh ubuntu@ec2-52-89-78-51.us-west-2.compute.amazonaws.com 'docker service update --image dimosian8docker1/5and_dollar:latest sandDollar'
-
-
-workflows:
-  test-build:
-    jobs:
-      - build
