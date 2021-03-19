@@ -9,6 +9,13 @@
     "securityExpiry": 30
   },
   "env": {
-    "test": "test"
+    "payment": {
+      "authSecretEnc": "wJU7kSuZNNhrjfsajThG1HZUoQ4yEFqpVfyHwR3oyM37Z52pBkDclsnANqIYVuWXcfM6nDC0RVoKUHF81vMQo7ARcCaP5jwv8BwEFqHX+S14NrWxintBbwpWfi79zueJ13gbnrkA/MP1ziVdW6JYGWU2OeLN9vE8oHblB2DnspA0RE8P1M36qDPsIURFw6kWerwwuGJvknKU3UIfpmLy2HmWzCgb3QPEx2EGqu0QgD4Zt2yawwLI42QThjamYSNwQnAKAN4YqwNdlUPylpTcQkq3DYKEMtuzKuFivAO7C4SAkMkvGvVxhYQoTDdSzpWW6SZ7Dokhe0/mWyHgaUn+wZjJBsep2Ct91GTewZydXZnRDfH7B3OS2Tw1xoPv8+IzKpFiSrb8odq4VZZsLj8QMa3ctGst3Jav13npDhyhThB6rjkSW+qVbOCOrY2VPVcrcRCmeeV+h1iL5zbP8MRl1t9AdI/PbW9D8PytUeYmwyqp8pzKF6tgS6BzJbO65JudWEM2e5yi+K/N4uoG53uwD9NE3LB+LqGYAJi2eQW0/9FG705bfbUL1NsPtVYyNf+E320E24oGrBfX/4eLeMIj/q/ehkHU3RDoWAwgC6eKjSqbSxQZmtDdjy5F7c6mqGNdfjc6dB1AGeSI/hNIQE7MjiKFbquTU8/nqiffs8XSXa8=",
+      "deviceIdEnc": "XEsNSb/k4AKPjunXAubWARVFmEyY+j55m6ua+Dy6cfcYKtlt39I+pfxyiqJvssgEEwJxHsz+sR78oV5Re7g5HtPxgErlGEstUu06VFpvkjMghb8mHvpZqq+LwYsi3DDLeTBjp0T8Iyaiq/iUbrXlcWzs0tG3cphFUuhqGdNf+kFDyK524Z5eo4bsKbGw9ept1m3KGrvjEGvEej6BJ6suz3WCILGEt1hucONmH9a9SpFXcUyDk3eTGrRdNZ6yRyqLCCxPXRNlImH537Qcr7OQFAehUaBF+MPCMIlCsR6X1SIlyn3Z/h1FpSR0aBbDPVPjGk6kbEDBX1ITaAuK1BBCYAdOSkUBPgD2KoRFBocSu0zsTYba58sunm93ZdxwBId0p57LWB6sLO76cHxc7ywgg9lmdBi0dVH5aCDMxfwCbxyKTSUAXOk536B/0PbIeM+CMtbRKMcunCrUqaKMLbniiA7YLfqMaOp+huysePxH8AvPx/5rcr+NW/CpbC/P8/o5OUBV/Y8W+ndLtv3l/OPE/7zC9RLsP6yhEXtjkvWlznD4an3skwGke51DVkxFKXg0DsWAWPfCIQ+4ZaKJNdsS8v6IJ0pde0VyUkrixmaHyrFkm19G5oYlIDSNA7Ww8cdIb7c3f4jf8hLQSnodagBNGx2KeWacykO0VK+d0ufeWv4="
+    },
+    "onboard": {
+      "access": "9+IiZz2vQs6V4g9c4VV/t3BGoKBH88+vUhY5mfAozl4=",
+      "secret": "1ooN7VmGUtvEievnAiUl2NlZYwwUFWvkq8TGU27lYyA="
+    }
   }
 }
