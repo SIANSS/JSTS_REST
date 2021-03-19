@@ -7,8 +7,8 @@ workflows:
 
 jobs:
   build:
-    machine:
-      enabled: true
+    docker:
+      - image: cimg/node:15.11.0
     steps:
       - add_ssh_keys:
           fingerprints:
