@@ -24,7 +24,7 @@ COPY --from=builder /home/ubuntu/5and_dollar/node_modules node_modules
 COPY package*.json ./
 COPY config config
 # COPY views views
-COPY ormconfig.js /
+# COPY ormconfig.js /
 COPY tsconfig.json ./tsconfig.json
 
 EXPOSE 3000
