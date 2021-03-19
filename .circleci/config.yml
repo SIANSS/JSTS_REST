@@ -18,7 +18,7 @@ jobs:
 
     - run:
         name: Build and deploy to dimosian8docker1/5and_dollar
-        Comand:
+        Comand: |
           #Build Image
           docker build -t dimosian8docker1/5and_dollar .
           #Deploy image
