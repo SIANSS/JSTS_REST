@@ -26,4 +26,4 @@ jobs:
             # Deploy image
             docker push dimosian8docker1/5and_dollar:latest
             # Update Container
-            ssh -i ubuntu@ec2-52-89-78-51.us-west-2.compute.amazonaws.com 'docker service update --image dimosian8docker1/5and_dollar:latest sandDollar'
+            ssh -i ubuntu@ec2-34-220-255-16.us-west-2.compute.amazonaws.com 'docker service update --image dimosian8docker1/5and_dollar:latest sandDollar'
