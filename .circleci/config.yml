@@ -10,13 +10,13 @@ jobs:
     machine:
       enabled: true
   steps:
-    add_ssh_keys:
-      fingerprints: #WHERE TO GET THESE fingerprints FROM ?
-        - 'c7:65:60:3b:f2:c6:29:57:07:a1:14:81:8e:7f:be:10'
+    - add_ssh_keys:
+        fingerprints:
+          - 'c7:65:60:3b:f2:c6:29:57:07:a1:14:81:8e:7f:be:10'
 
-      - checkout
+    - checkout
 
-      - run:
+    - run:
         name: Build and deploy to dimosian8docker1/5and_dollar
         Comand:
           #Build Image
