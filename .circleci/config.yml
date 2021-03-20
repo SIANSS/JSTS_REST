@@ -12,7 +12,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - 'b8:cb:79:f2:0a:bd:5d:cd:fc:3a:3e:fb:a2:f8:37:d4'
+            - '05:9b:b4:f8:e0:60:45:34:f8:0d:e7:36:e2:ae:7e:d1:6e:32:2a:75:c8:fa:59:ce:fa:15:21:53:8c:c2:3c:c8'
 
       - checkout
 
@@ -26,4 +26,4 @@ jobs:
             # Deploy image
             docker push dimosian8docker1/5and_dollar:latest
             # Update Container
-            ssh ubuntu@ec2-34-220-255-16.us-west-2.compute.amazonaws.com 'docker service update --image dimosian8docker1/5and_dollar:latest sandDollar'
+            ssh ubuntu@ec2-52-43-216-70.us-west-2.compute.amazonaws.com 'docker service update --image dimosian8docker1/5and_dollar:latest sandDollar'
