@@ -26,6 +26,6 @@ jobs:
             # Deploy image
             docker push dimosian8docker1/5and_dollar:latest
             # Authorize Docker from Ec2
-            ssh ubuntu@ec2-52-43-216-70.us-west-2.compute.amazonaws.com 'docker login -u $DOCKER_USER -p $DOCKER_PASSWORD'
+            echo $DOCKER_PASS | ssh ubuntu@ec2-52-43-216-70.us-west-2.compute.amazonaws.com 'docker login -u $DOCKER_USER --password-stdin'
             # get first Containerized app
             ssh ubuntu@ec2-52-43-216-70.us-west-2.compute.amazonaws.com 'docker pull dimosian8docker1/5and_dollar:latest'
